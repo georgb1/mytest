@@ -1,0 +1,32 @@
+{
+    "name": "specialtest04",
+    "createdMillis": 1753676072030,
+    "updatedMillis": 1753676072030,
+    "metadata": {
+        "actionIsRetriable": false
+    },
+    "runtime": "python",
+    "source": "def handler(context, inputs):\n    greeting = \"Hello, {0}!\".format(inputs[\"target\"])\n    print(greeting)\n\n    outputs = {\n      \"greeting\": greeting\n    }\n\n    return outputs\n",
+    "entrypoint": "handler",
+    "inputs": {
+        "target": "World"
+    },
+    "cpuShares": 1024,
+    "memoryInMB": 300,
+    "showMemoryAlert": false,
+    "timeoutSeconds": 600,
+    "deploymentTimeoutSeconds": 900,
+    "actionType": "SCRIPT",
+    "provider": "",
+    "configuration": {
+        "const_azure-system_managed_identity": false
+    },
+    "system": false,
+    "shared": true,
+    "asyncDeployed": false,
+    "runtimeVersion": "3.10",
+    "id": "8a74809596e9e65c01984f3d445437f1",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "projectId": "7280ae37-3502-4378-86aa-b0d8b423d051",
+    "selfLink": "/abx/api/resources/actions/8a74809596e9e65c01984f3d445437f1?projectId=7280ae37-3502-4378-86aa-b0d8b423d051"
+}
