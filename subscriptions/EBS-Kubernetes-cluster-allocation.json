@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Kubernetes-cluster-allocation",
+    "type": "RUNNABLE",
+    "eventTopicId": "kubernetes.cluster.allocation.pre",
+    "name": "EBS-Kubernetes-cluster-allocation",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Pre allocation for kubernetes cluster resources",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "20f9d7a6-bd3c-4f13-8418-06f50ad02079"
+}
