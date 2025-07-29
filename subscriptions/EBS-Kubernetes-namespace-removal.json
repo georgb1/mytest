@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Kubernetes-namespace-removal",
+    "type": "RUNNABLE",
+    "eventTopicId": "kubernetes.namespace.removal.pre",
+    "name": "EBS-Kubernetes-namespace-removal",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Fired before a namespace cluster resource is being destroyed",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "6ec5cf57-c7ba-45ac-a566-e5f44ec72a18"
+}

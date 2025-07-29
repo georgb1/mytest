@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Disk-post-resize",
+    "type": "RUNNABLE",
+    "eventTopicId": "disk.resize.post",
+    "name": "EBS-Disk-post-resize",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Fired after a disk resources is resized successfully",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "2c1301a6-ec40-46a8-94e4-3072814b5ec8"
+}

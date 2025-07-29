@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Compute-gateway-post-removal",
+    "type": "RUNNABLE",
+    "eventTopicId": "compute.gateway.removal.post",
+    "name": "EBS-Compute-gateway-post-removal",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Compute gateway post removal event topic",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "bffa2999-2338-4ed1-b424-432c1f6c2220"
+}

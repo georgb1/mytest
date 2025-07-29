@@ -1,0 +1,23 @@
+{
+    "id": "sub_1745874182421",
+    "type": "RUNNABLE",
+    "eventTopicId": "compute.allocation.pre",
+    "name": "MM-Compute-allocation",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 11,
+    "disabled": true,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "d67c7884-1524-4828-afde-266f23b70786"
+}

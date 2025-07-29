@@ -1,0 +1,23 @@
+{
+    "id": "sub_1741888248982",
+    "type": "RUNNABLE",
+    "eventTopicId": "deployment.resource.request.post",
+    "name": "Deployment-Resource-Customer",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 10,
+    "disabled": true,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "22bb0dac-645d-4730-9d52-272ead531ee5"
+}

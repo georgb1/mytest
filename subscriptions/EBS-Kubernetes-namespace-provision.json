@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Kubernetes-namespace-provision",
+    "type": "RUNNABLE",
+    "eventTopicId": "kubernetes.namespace.provision.pre",
+    "name": "EBS-Kubernetes-namespace-provision",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Fired before a kubernetes namespace is being provisioned",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "aaa74d0a-8503-4dbb-bc2b-887f8a10cc8d"
+}

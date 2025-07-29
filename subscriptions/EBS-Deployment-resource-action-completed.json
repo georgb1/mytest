@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Deployment-resource-action-completed",
+    "type": "RUNNABLE",
+    "eventTopicId": "deployment.resource.action.post",
+    "name": "EBS-Deployment-resource-action-completed",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Event is fired after a deployment resource Day 2 action is executed. Sent for each resource in a cluster.",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "81233116-60d5-4d1c-a122-9ec67adcb6d1"
+}

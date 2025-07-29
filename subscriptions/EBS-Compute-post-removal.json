@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Compute-post-removal",
+    "type": "RUNNABLE",
+    "eventTopicId": "compute.removal.post",
+    "name": "EBS-Compute-post-removal",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Fired after a compute resource destroyed successfully. Events are sent for each machine in a cluster.",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "21c8317e-3836-4750-a487-9a9c89491ed8"
+}

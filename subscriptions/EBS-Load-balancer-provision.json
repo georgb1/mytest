@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Load-balancer-provision",
+    "type": "RUNNABLE",
+    "eventTopicId": "load.balancer.provision.pre",
+    "name": "EBS-Load-balancer-provision",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Load balancer pre provisioning event topic",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "67f06534-976a-40b1-8151-c301c3898cfb"
+}

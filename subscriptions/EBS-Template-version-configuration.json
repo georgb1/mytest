@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Template-version-configuration",
+    "type": "RUNNABLE",
+    "eventTopicId": "blueprint.version.configuration",
+    "name": "EBS-Template-version-configuration",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": false,
+    "description": "Topic for template versioning events like create / release / un-release / restore",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "2637d5c7-0ed1-49f1-a57f-399b01aa29d9"
+}

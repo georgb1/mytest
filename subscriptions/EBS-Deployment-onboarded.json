@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Deployment-onboarded",
+    "type": "RUNNABLE",
+    "eventTopicId": "relocation-service.deployment.onboarded",
+    "name": "EBS-Deployment-onboarded",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": false,
+    "description": "Emitted when a new deployment is onboarded.",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "61b3bdcb-6a28-4e44-a438-93b627dcda1b"
+}
