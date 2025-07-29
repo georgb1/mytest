@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Disk-attach",
+    "type": "RUNNABLE",
+    "eventTopicId": "disk.attach.pre",
+    "name": "EBS-Disk-attach",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Fired before a disk is attached to a machine and is a read/write event. Disk Properties supported for write back are: [1] diskFullPaths, [2] diskDatastoreNames and [3] diskParentDirs. All three vsphere specific disk properties are required together for update. Rest of the properties are read-only. Note: Write back is optional for Vsphere First class disk",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "0fe583b7-f0cd-40ac-8be3-0dff2a252169"
+}
