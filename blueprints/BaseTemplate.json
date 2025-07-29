@@ -1,0 +1,20 @@
+{
+    "id": "433c852c-33ef-472f-a57f-55c77e6a248f",
+    "createdAt": "2024-11-10T06:46:11.174244Z",
+    "createdBy": "bgeorge",
+    "updatedAt": "2024-11-26T13:58:45.363288Z",
+    "updatedBy": "bgeorge",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "projectId": "7280ae37-3502-4378-86aa-b0d8b423d051",
+    "projectName": "Development",
+    "selfLink": "/blueprint/api/blueprints/433c852c-33ef-472f-a57f-55c77e6a248f",
+    "name": "BaseTemplate",
+    "description": "",
+    "status": "DRAFT",
+    "valid": true,
+    "validationMessages": [],
+    "totalVersions": 0,
+    "totalReleasedVersions": 0,
+    "requestScopeOrg": false,
+    "contentSourceSyncMessages": []
+}

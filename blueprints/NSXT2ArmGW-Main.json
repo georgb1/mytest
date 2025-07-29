@@ -1,0 +1,20 @@
+{
+    "id": "4827fbb9-4308-429f-9b5d-bc849d82cb93",
+    "createdAt": "2024-11-10T09:09:35.784495Z",
+    "createdBy": "bgeorge",
+    "updatedAt": "2024-11-10T09:19:10.048612Z",
+    "updatedBy": "bgeorge",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "projectId": "7280ae37-3502-4378-86aa-b0d8b423d051",
+    "projectName": "Development",
+    "selfLink": "/blueprint/api/blueprints/4827fbb9-4308-429f-9b5d-bc849d82cb93",
+    "name": "NSXT2ArmGW-Main",
+    "description": "",
+    "status": "DRAFT",
+    "valid": true,
+    "validationMessages": [],
+    "totalVersions": 0,
+    "totalReleasedVersions": 0,
+    "requestScopeOrg": false,
+    "contentSourceSyncMessages": []
+}

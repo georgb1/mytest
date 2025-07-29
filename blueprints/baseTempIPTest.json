@@ -1,0 +1,20 @@
+{
+    "id": "d0e4ebaa-d543-4a73-b40f-117a80165744",
+    "createdAt": "2025-05-27T22:41:38.082138Z",
+    "createdBy": "bgeorge",
+    "updatedAt": "2025-06-20T12:54:19.862130Z",
+    "updatedBy": "bgeorge",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "projectId": "7280ae37-3502-4378-86aa-b0d8b423d051",
+    "projectName": "Development",
+    "selfLink": "/blueprint/api/blueprints/d0e4ebaa-d543-4a73-b40f-117a80165744",
+    "name": "baseTempIPTest",
+    "description": "",
+    "status": "DRAFT",
+    "valid": true,
+    "validationMessages": [],
+    "totalVersions": 0,
+    "totalReleasedVersions": 0,
+    "requestScopeOrg": true,
+    "contentSourceSyncMessages": []
+}

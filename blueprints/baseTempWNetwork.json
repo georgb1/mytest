@@ -1,0 +1,20 @@
+{
+    "id": "11e9fb06-2b0c-4eb0-96e0-da64ffbd7526",
+    "createdAt": "2025-05-13T19:44:24.659780Z",
+    "createdBy": "bgeorge",
+    "updatedAt": "2025-05-13T20:14:21.851635Z",
+    "updatedBy": "bgeorge",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "projectId": "7280ae37-3502-4378-86aa-b0d8b423d051",
+    "projectName": "Development",
+    "selfLink": "/blueprint/api/blueprints/11e9fb06-2b0c-4eb0-96e0-da64ffbd7526",
+    "name": "baseTempWNetwork",
+    "description": "",
+    "status": "DRAFT",
+    "valid": true,
+    "validationMessages": [],
+    "totalVersions": 0,
+    "totalReleasedVersions": 0,
+    "requestScopeOrg": true,
+    "contentSourceSyncMessages": []
+}
