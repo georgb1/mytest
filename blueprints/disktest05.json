@@ -1,0 +1,20 @@
+{
+    "id": "5ad30bfb-7bd8-424a-ad17-20d2ee5c6fd4",
+    "createdAt": "2025-03-07T13:49:00.894137Z",
+    "createdBy": "bgeorge",
+    "updatedAt": "2025-04-11T13:49:02.919239Z",
+    "updatedBy": "bgeorge",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "projectId": "7280ae37-3502-4378-86aa-b0d8b423d051",
+    "projectName": "Development",
+    "selfLink": "/blueprint/api/blueprints/5ad30bfb-7bd8-424a-ad17-20d2ee5c6fd4",
+    "name": "disktest05",
+    "description": "",
+    "status": "DRAFT",
+    "valid": true,
+    "validationMessages": [],
+    "totalVersions": 1,
+    "totalReleasedVersions": 1,
+    "requestScopeOrg": false,
+    "contentSourceSyncMessages": []
+}
