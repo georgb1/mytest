@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Kubernetes-namespace-post-provision",
+    "type": "RUNNABLE",
+    "eventTopicId": "kubernetes.namespace.provision.post",
+    "name": "EBS-Kubernetes-namespace-post-provision",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Fired after a kubernetes namespace resource gets provisioned",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "f4b0955e-04eb-4d1b-aa65-01994f44ab00"
+}
