@@ -1,0 +1,23 @@
+{
+    "id": "sub_1745902559034",
+    "type": "RUNNABLE",
+    "eventTopicId": "compute.provision.pre",
+    "name": "MM-Compute-provision",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 11,
+    "disabled": true,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "019bc3af-d944-4dd7-a698-e1cc5196d8b1"
+}
