@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Provisioning-request",
+    "type": "RUNNABLE",
+    "eventTopicId": "provisioning.request.pre",
+    "name": "EBS-Provisioning-request",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Fired when a request comes into provisioning service. That may be a request to allocate, provision or a Day2 operation including removal. Allocation requests are fired once per cluster of machines.Provisioning and Day 2 requests are fired for each machine in a cluster. ",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "1e4ed0a6-66b7-469a-a248-9a33d3a346e4"
+}
