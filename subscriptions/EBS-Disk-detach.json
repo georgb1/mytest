@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Disk-detach",
+    "type": "RUNNABLE",
+    "eventTopicId": "disk.detach.post",
+    "name": "EBS-Disk-detach",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Fired after a disk is detached from a machine and is a read-only event.",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "a3c166ef-e02c-44ec-8e3a-e203d6b5c995"
+}
