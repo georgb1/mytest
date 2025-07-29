@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Load-balancer-removal",
+    "type": "RUNNABLE",
+    "eventTopicId": "load.balancer.removal.pre",
+    "name": "EBS-Load-balancer-removal",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Load balancer pre removal event topic",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "df4c2b13-9343-4cae-9fb6-0e160e02a1bd"
+}
