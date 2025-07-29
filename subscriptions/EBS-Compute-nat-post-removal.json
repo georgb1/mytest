@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Compute-nat-post-removal",
+    "type": "RUNNABLE",
+    "eventTopicId": "compute.nat.removal.post",
+    "name": "EBS-Compute-nat-post-removal",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Fired after a compute nat resource is removed successfully",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "e99f2b33-809d-4167-9c33-48f848c0f37c"
+}
