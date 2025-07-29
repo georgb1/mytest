@@ -1,0 +1,20 @@
+{
+    "id": "036963f1-b76f-4594-ba38-920121f4a7c2",
+    "createdAt": "2025-06-23T19:28:05.087283Z",
+    "createdBy": "bgeorge",
+    "updatedAt": "2025-06-23T19:28:05.087283Z",
+    "updatedBy": "bgeorge",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "projectId": "7280ae37-3502-4378-86aa-b0d8b423d051",
+    "projectName": "Development",
+    "selfLink": "/blueprint/api/blueprints/036963f1-b76f-4594-ba38-920121f4a7c2",
+    "name": "bpvalidate01",
+    "description": "",
+    "status": "DRAFT",
+    "valid": true,
+    "validationMessages": [],
+    "totalVersions": 0,
+    "totalReleasedVersions": 0,
+    "requestScopeOrg": true,
+    "contentSourceSyncMessages": []
+}
