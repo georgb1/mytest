@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Deployment-resource-requested",
+    "type": "RUNNABLE",
+    "eventTopicId": "deployment.resource.request.pre",
+    "name": "EBS-Deployment-resource-requested",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Event is fired before a deployment resource is provisioned after allocation. Sent for each resource in a cluster except for Allocation resources.",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "e1a8814c-113d-42eb-891c-a7ffc306c017"
+}
