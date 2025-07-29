@@ -1,0 +1,20 @@
+{
+    "id": "675d9ec3-bc41-4c6d-8649-45c7ae579fc6",
+    "createdAt": "2025-01-28T06:44:17.280072Z",
+    "createdBy": "bgeorge",
+    "updatedAt": "2025-03-13T17:53:34.108858Z",
+    "updatedBy": "bgeorge",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "projectId": "7280ae37-3502-4378-86aa-b0d8b423d051",
+    "projectName": "Development",
+    "selfLink": "/blueprint/api/blueprints/675d9ec3-bc41-4c6d-8649-45c7ae579fc6",
+    "name": "BasePlacementTestDev",
+    "description": "",
+    "status": "DRAFT",
+    "valid": true,
+    "validationMessages": [],
+    "totalVersions": 2,
+    "totalReleasedVersions": 2,
+    "requestScopeOrg": true,
+    "contentSourceSyncMessages": []
+}
