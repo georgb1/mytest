@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Kubernetes-supervisor-namespace-allocation",
+    "type": "RUNNABLE",
+    "eventTopicId": "kubernetes.sv.namespace.allocation.pre",
+    "name": "EBS-Kubernetes-supervisor-namespace-allocation",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Pre allocation for kubernetes supervisor namespace resources",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "7e73751b-46a2-4224-a41f-e89eed7246ed"
+}
