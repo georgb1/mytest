@@ -1,0 +1,20 @@
+{
+    "id": "6d6a4fd1-0a0e-4056-bcd8-96c204f20c44",
+    "createdAt": "2025-05-12T17:54:37.585252Z",
+    "createdBy": "bgeorge",
+    "updatedAt": "2025-05-12T18:24:52.684076Z",
+    "updatedBy": "bgeorge",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "projectId": "7280ae37-3502-4378-86aa-b0d8b423d051",
+    "projectName": "Development",
+    "selfLink": "/blueprint/api/blueprints/6d6a4fd1-0a0e-4056-bcd8-96c204f20c44",
+    "name": "baseTemp3",
+    "description": "",
+    "status": "DRAFT",
+    "valid": true,
+    "validationMessages": [],
+    "totalVersions": 0,
+    "totalReleasedVersions": 0,
+    "requestScopeOrg": true,
+    "contentSourceSyncMessages": []
+}
