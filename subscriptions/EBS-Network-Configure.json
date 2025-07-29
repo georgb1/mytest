@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Network-Configure",
+    "type": "RUNNABLE",
+    "eventTopicId": "network.configure",
+    "name": "EBS-Network-Configure",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Network configuration during compute allocation. Fired once for a cluster of machines.",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "fb4594a3-ba17-4204-a987-3d97740dea43"
+}
