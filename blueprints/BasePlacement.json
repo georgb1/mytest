@@ -1,0 +1,20 @@
+{
+    "id": "d179477f-9553-4a9e-8609-ffad0df2e461",
+    "createdAt": "2024-11-20T18:22:52.714695Z",
+    "createdBy": "bgeorge",
+    "updatedAt": "2024-11-20T18:59:21.017084Z",
+    "updatedBy": "bgeorge",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "projectId": "7280ae37-3502-4378-86aa-b0d8b423d051",
+    "projectName": "Development",
+    "selfLink": "/blueprint/api/blueprints/d179477f-9553-4a9e-8609-ffad0df2e461",
+    "name": "BasePlacement",
+    "description": "",
+    "status": "DRAFT",
+    "valid": true,
+    "validationMessages": [],
+    "totalVersions": 0,
+    "totalReleasedVersions": 0,
+    "requestScopeOrg": true,
+    "contentSourceSyncMessages": []
+}
