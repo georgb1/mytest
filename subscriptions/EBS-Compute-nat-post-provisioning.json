@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Compute-nat-post-provisioning",
+    "type": "RUNNABLE",
+    "eventTopicId": "compute.nat.provision.post",
+    "name": "EBS-Compute-nat-post-provisioning",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": true,
+    "description": "Fired after a compute nat resource is provisioned successfully",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "100c688d-2327-470f-bfcb-93f1937fa231"
+}
