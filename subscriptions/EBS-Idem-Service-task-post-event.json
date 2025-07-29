@@ -1,0 +1,23 @@
+{
+    "id": "EBS-Idem-Service-task-post-event",
+    "type": "RUNNABLE",
+    "eventTopicId": "idem-service.task.post",
+    "name": "EBS-Idem-Service-task-post-event",
+    "orgId": "f743d669-e8a8-40d4-af7d-4ea0be94a5d1",
+    "ownerId": "bgeorge",
+    "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
+    "blocking": false,
+    "description": "Emitted when idem task completed or failed",
+    "criteria": "",
+    "constraints": {
+        "projectId": null
+    },
+    "timeout": 0,
+    "broadcast": false,
+    "priority": 1,
+    "disabled": false,
+    "system": false,
+    "contextual": false,
+    "runnableType": "extensibility.vro",
+    "runnableId": "ffa3030c-cd6b-44c5-8f74-0a1ba3b6719d"
+}
