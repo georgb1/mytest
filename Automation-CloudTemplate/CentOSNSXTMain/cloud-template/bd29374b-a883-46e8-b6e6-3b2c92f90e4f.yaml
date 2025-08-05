@@ -1,0 +1,75 @@
+id: bd29374b-a883-46e8-b6e6-3b2c92f90e4f
+createdAt: '2024-10-22T06:21:37.196111Z'
+createdBy: bgeorge
+updatedAt: '2024-10-22T06:32:52.181985Z'
+updatedBy: bgeorge
+orgId: 1ab76d85-f81d-432a-820d-9ca73989cc32
+projectId: 92de7af6-ff20-42ef-8e80-c59348c70c27
+projectName: TestNSX
+selfLink: /blueprint/api/blueprints/bd29374b-a883-46e8-b6e6-3b2c92f90e4f
+name: CentOSNSXTMain
+description: ''
+status: DRAFT
+content: |
+  ---
+  formatVersion: 1
+  inputs:
+    build:
+      type: "string"
+      default: "small"
+    cpuCount:
+      type: "integer"
+      description: "Number of virtual processors"
+      default: 1
+    totalMemoryMB:
+      type: "integer"
+      description: "Machine virtual memory size in Megabytes"
+      default: 1024
+    disksize:
+      type: "number"
+      default: 5
+  resources:
+    Cloud_vSphere_Disk_1:
+      type: "Cloud.vSphere.Disk"
+      metadata:
+        layoutPosition:
+        - 0
+        - 1
+      properties:
+        capacityGb: "${input.disksize}"
+    Cloud_vSphere_Machine_1:
+      type: "Cloud.vSphere.Machine"
+      metadata:
+        layoutPosition:
+        - 0
+        - 2
+      properties:
+        image: "ubuntu"
+        customizationSpec: "Linux"
+        cpuCount: "${input.cpuCount}"
+        totalMemoryMB: "${input.totalMemoryMB}"
+        constraints:
+        - tag: "nsx:prod"
+        attachedDisks:
+        - source: "${resource.Cloud_vSphere_Disk_1.id}"
+        networks:
+        - network: "${resource.Cloud_NSX_Network_1.id}"
+          assignment: "static"
+    Cloud_NSX_Network_1:
+      type: "Cloud.NSX.Network"
+      metadata:
+        layoutPosition:
+        - 1
+        - 0
+      properties:
+        networkType: "outbound"
+        constraints:
+        - tag: "nsx:prod"
+valid: true
+validationMessages: [
+  ]
+totalVersions: 0
+totalReleasedVersions: 0
+requestScopeOrg: false
+contentSourceSyncMessages: [
+  ]

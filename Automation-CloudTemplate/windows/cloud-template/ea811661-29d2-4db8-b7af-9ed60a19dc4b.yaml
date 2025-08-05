@@ -1,0 +1,141 @@
+id: ea811661-29d2-4db8-b7af-9ed60a19dc4b
+createdAt: '2024-11-06T20:43:41.035494Z'
+createdBy: bgeorge
+updatedAt: '2025-01-15T19:12:27.951434Z'
+updatedBy: bgeorge
+orgId: 1ab76d85-f81d-432a-820d-9ca73989cc32
+projectId: 92de7af6-ff20-42ef-8e80-c59348c70c27
+projectName: TestNSX
+selfLink: /blueprint/api/blueprints/ea811661-29d2-4db8-b7af-9ed60a19dc4b
+name: windows
+description: ''
+status: DRAFT
+content: |
+  ---
+  formatVersion: 1
+  inputs:
+    vmcount:
+      type: "integer"
+      title: "VM Count"
+      default: 1
+      minimum: 1
+      maximum: 4
+    cpucount:
+      type: "integer"
+      title: "CPU Count"
+      default: 1
+      minimum: 1
+      maximum: 4
+    memgb:
+      type: "integer"
+      title: "Memory in GB"
+      default: 1
+      minimum: 1
+      maximum: 4
+    disks:
+      type: "array"
+      title: "Data Disks"
+      description: "Disks to be added"
+      minItems: 0
+      maxItems: 4
+      items:
+        type: "object"
+        properties:
+          mount:
+            type: "string"
+            title: "Disk Mount"
+          size:
+            type: "integer"
+            title: "Size (GB)"
+    location:
+      type: "string"
+  resources:
+    disk1:
+      type: "Cloud.vSphere.Disk"
+      metadata:
+        layoutPosition:
+        - 0
+        - 0
+      allocatePerInstance: true
+      properties:
+        count: "${length(input.disks) >= 1 ? 1 * input.vmcount : 0}"
+        capacityGb: "${input.disks[0].size}"
+        SCSIController: "SCSI_Controller_1"
+        unitNumber: 0
+    disk2:
+      type: "Cloud.vSphere.Disk"
+      metadata:
+        layoutPosition:
+        - 0
+        - 1
+      allocatePerInstance: true
+      properties:
+        count: "${length(input.disks) >= 2 ? 1 * input.vmcount : 0}"
+        capacityGb: "${input.disks[1].size}"
+        SCSIController: "SCSI_Controller_1"
+        unitNumber: 1
+    disk3:
+      type: "Cloud.vSphere.Disk"
+      metadata:
+        layoutPosition:
+        - 0
+        - 2
+      allocatePerInstance: true
+      properties:
+        count: "${length(input.disks) >= 3 ? 1 * input.vmcount : 0}"
+        capacityGb: "${input.disks[2].size}"
+        SCSIController: "SCSI_Controller_1"
+        unitNumber: 2
+    disk4:
+      type: "Cloud.vSphere.Disk"
+      metadata:
+        layoutPosition:
+        - 0
+        - 3
+      allocatePerInstance: true
+      properties:
+        count: "${length(input.disks) >= 4 ? 1 * input.vmcount : 0}"
+        capacityGb: "${input.disks[3].size}"
+        SCSIController: "SCSI_Controller_1"
+        unitNumber: 3
+    Cloud_vSphere_Machine_1:
+      type: "Cloud.vSphere.Machine"
+      metadata:
+        layoutPosition:
+        - 0
+        - 4
+      allocatePerInstance: true
+      properties:
+        image: "win2019"
+        cpuCount: "${input.cpucount}"
+        totalMemoryMB: "${input.memgb * 1024}"
+        count: "${input.vmcount}"
+        customizationSpec: "Windows"
+        networks:
+        - network: "${resource.Network_VM.id}"
+          assignment: "static"
+        attachedDisks: "${map_to_object(slice(resource.disk1[*].id, input.vmcount *\
+          \ count.index, input.vmcount * (count.index + 1)), \"source\") + map_to_object(slice(resource.disk2[*].id,\
+          \ input.vmcount * count.index, input.vmcount * (count.index + 1)), \"source\"\
+          ) + map_to_object(slice(resource.disk3[*].id, input.vmcount * count.index,\
+          \ input.vmcount * (count.index + 1)), \"source\") + map_to_object(slice(resource.disk4[*].id,\
+          \ input.vmcount * count.index, input.vmcount * (count.index + 1)), \"source\"\
+          )}"
+    Network_VM:
+      type: "Cloud.vSphere.Network"
+      metadata:
+        layoutPosition:
+        - 1
+        - 0
+      properties:
+        networkType: "existing"
+        constraints:
+        - tag: "nsx:internal"
+valid: true
+validationMessages: [
+  ]
+totalVersions: 2
+totalReleasedVersions: 2
+requestScopeOrg: true
+contentSourceSyncMessages: [
+  ]

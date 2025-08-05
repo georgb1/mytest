@@ -1,0 +1,7 @@
+{
+  "contentName": "CentOSNSXTMain",
+  "uniqueId": "bd29374b-a883-46e8-b6e6-3b2c92f90e4f",
+  "contentType": "Automation-CloudTemplate",
+  "keyValues": {"contentEndpointVersion": "8.x"},
+  "descendents": []
+}
