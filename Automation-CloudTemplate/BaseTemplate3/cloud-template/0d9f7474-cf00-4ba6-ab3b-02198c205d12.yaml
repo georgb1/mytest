@@ -1,0 +1,78 @@
+id: 0d9f7474-cf00-4ba6-ab3b-02198c205d12
+createdAt: '2024-11-10T22:19:39.079223Z'
+createdBy: bgeorge
+updatedAt: '2024-11-10T22:28:20.660735Z'
+updatedBy: bgeorge
+orgId: 1ab76d85-f81d-432a-820d-9ca73989cc32
+projectId: 92de7af6-ff20-42ef-8e80-c59348c70c27
+projectName: TestNSX
+selfLink: /blueprint/api/blueprints/0d9f7474-cf00-4ba6-ab3b-02198c205d12
+name: BaseTemplate3
+description: ''
+status: DRAFT
+content: |
+  ---
+  formatVersion: 1
+  inputs: {}
+  resources:
+    Cloud_NSX_LoadBalancer_1:
+      type: "Cloud.NSX.LoadBalancer"
+      metadata:
+        layoutPosition:
+        - 1
+        - 0
+      properties:
+        routes:
+        - algorithm: "ROUND_ROBIN"
+          port: 80
+          protocol: "TCP"
+        - algorithm: "ROUND_ROBIN"
+          port: 443
+          protocol: "TCP"
+        type: "SMALL"
+        network: "${resource.Cloud_NSX_Network_1.id}"
+        instances:
+        - "${resource.Cloud_vSphere_Machine_1[*].id}"
+    Cloud_vSphere_Machine_1:
+      type: "Cloud.vSphere.Machine"
+      metadata:
+        layoutPosition:
+        - 1
+        - 1
+      properties:
+        image: "Ubuntu"
+        customizationSpec: "Linux"
+        cpuCount: 1
+        count: 2
+        totalMemoryMB: 1024
+        networks:
+        - network: "${resource.Cloud_NSX_Network_2.id}"
+          assignment: "static"
+    Cloud_NSX_Network_1:
+      type: "Cloud.NSX.Network"
+      metadata:
+        layoutPosition:
+        - 0
+        - 0
+      properties:
+        networkType: "existing"
+        constraints:
+        - tag: "nsx:web"
+    Cloud_NSX_Network_2:
+      type: "Cloud.NSX.Network"
+      metadata:
+        layoutPosition:
+        - 2
+        - 0
+      properties:
+        networkType: "outbound"
+        constraints:
+        - tag: "nsx:prod"
+valid: true
+validationMessages: [
+  ]
+totalVersions: 0
+totalReleasedVersions: 0
+requestScopeOrg: false
+contentSourceSyncMessages: [
+  ]
