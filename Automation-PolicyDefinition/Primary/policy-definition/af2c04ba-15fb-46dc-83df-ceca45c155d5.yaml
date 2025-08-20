@@ -1,0 +1,25 @@
+id: af2c04ba-15fb-46dc-83df-ceca45c155d5
+name: Primary
+typeId: com.vmware.policy.catalog.entitlement
+enforcementType: HARD
+orgId: 1ab76d85-f81d-432a-820d-9ca73989cc32
+createdAt: '2024-11-05T07:15:03.436108Z'
+createdBy: configadmin
+lastUpdatedAt: '2025-01-28T05:09:18.960490Z'
+lastUpdatedBy: bgeorge
+organizationName: vidm817
+definition:
+  entitledUsers:
+  - userType: USER
+    principals:
+    - type: PROJECT
+      referenceId: ''
+    items:
+    - id: Primary
+      type: CATALOG_SOURCE_IDENTIFIER
+    - id: myVRO
+      type: CATALOG_SOURCE_IDENTIFIER
+    - id: 8c78e366-61c7-3dd1-b5dd-972c4bb95e5b
+      type: CATALOG_ITEM_IDENTIFIER
+    - id: dc5be387-dde6-3404-8526-b535f923cc10
+      type: CATALOG_ITEM_IDENTIFIER
