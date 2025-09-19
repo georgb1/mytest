@@ -7,7 +7,7 @@
     "ownerId": "bgeorge",
     "subscriberId": "vro-gateway-fLRkW1zDQN4kjrZf",
     "blocking": true,
-    "description": "Fired after a compute resource gets provisioned. Events are sent for each machine in a cluster.",
+    "description": "Fired after a compute resource gets provisioned. Events are sent for each machine in a cluster. Update information",
     "criteria": "",
     "constraints": {
         "projectId": null
