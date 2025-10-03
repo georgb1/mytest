@@ -11,6 +11,7 @@
     "inputs": {
         "target": "World"
     },
+    "description": "Do Something",
     "cpuShares": 1024,
     "memoryInMB": 300,
     "showMemoryAlert": false,
