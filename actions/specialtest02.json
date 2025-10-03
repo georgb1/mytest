@@ -6,7 +6,7 @@
         "actionIsRetriable": false
     },
     "runtime": "python",
-    "source": "def handler(context, inputs):\n    greeting = \"Hello, {0}!\".format(inputs[\"target\"])\n    print(greeting)\n\n    print(\"Hello World\")\n    outputs = {\n      \"greeting\": greeting\n    }\n\n    return outputs\n",
+    "source": "def handler(context, inputs):\n    greeting = \"Hello, {0}!\".format(inputs[\"target\"])\n    print(greeting)\n\n    print(\"Hello World\")\n    print(\"Script Update\")    outputs = {\n      \"greeting\": greeting\n    }\n\n    return outputs\n",
     "entrypoint": "handler",
     "inputs": {
         "target": "World"
